@@ -16,6 +16,12 @@ Este projeto foi desenvolvido utilizando a tecnologia Sass, uma poderosa extens�
 
 Sinta-se à vontade para modificar o array comidas no código JavaScript para incluir suas opções de comida favoritas. Adicione ou remova itens para personalizar o processo de seleção.
 
+> https://fernando-bento.github.io/Descomplicai/
+
+## Inspiração
+
+Este projeto foi inspirado na estética Vaporwave, com suas cores vibrantes e elementos nostálgicos. A intenção foi trazer um pouco dessa atmos
+
 ## Desktop
 ![Capturar](https://github.com/Fernando-Bento/Descomplicai/assets/98424711/545c50ff-bc35-4927-a6ba-950bd193d2d1)
 
