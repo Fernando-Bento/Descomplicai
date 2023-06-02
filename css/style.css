@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "w95fa";
+  src: url(../font/W95FA.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: w95fa;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #8c00ff url(https://i.pinimg.com/originals/59/69/84/59698460a33a71e42ddf46e185e17737.gif) no-repeat center top;
+  background-size: cover;
+}
+main #top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 400px;
+  height: 6%;
+  background-color: #0b025b;
+}
+main #top h1 {
+  color: white;
+  font-size: 1.2em;
+}
+main #top #fechar {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #c5bbce;
+}
+main #top #fechar:hover {
+  background-color: #c5acda;
+}
+main #window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  padding: 10px;
+  background-color: #c5bbce;
+  box-shadow: -1px -1px 0px black, 1px 1px 0px white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+section #resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: inset 10px 10px 10px black, inset -1px -1px 5px black;
+  margin: 20px;
+}
+section #resultado h1 {
+  font-size: 2em;
+}
+section #resultado img#img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0px black;
+}
+section #decidir {
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #c5bbce;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li img#icones {
+  padding: 5px 10px;
+  width: 50px;
+  box-shadow: inset 0px 0px 0px black;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+nav ul li img#icones:hover {
+  box-shadow: inset 5px 5px 0px black;
+}/*# sourceMappingURL=style.css.map */

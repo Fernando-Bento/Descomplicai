@@ -1,0 +1,101 @@
+@font-face 
+    font-family: "w95fa"
+    src: url(../font/W95FA.otf)
+
+@mixin centralizando()
+    display: flex
+    justify-content: center
+    align-items: center
+    
+
+$vibrant-purple: #8c00ff
+$purplish-gray: #c5bbce
+$blue-window:#0b025b
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: w95fa
+    
+main
+    @include centralizando()
+    display: flex
+    flex-direction: column
+    height: 100vh
+    background: $vibrant-purple url(https://i.pinimg.com/originals/59/69/84/59698460a33a71e42ddf46e185e17737.gif) no-repeat center top 
+    background-size: cover
+
+    #top
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 10px
+        width: 400px
+        height: 6%
+        background-color: $blue-window
+
+        h1
+            color: white
+            font-size: 1.2em
+
+        #fechar
+            border: none
+            padding: 5px
+            cursor: pointer
+            box-shadow: 2px 2px 0px $purplish-gray
+
+            &:hover
+                background-color: #c5acda
+
+    #window
+        @include centralizando()
+        position: relative
+        width: 400px
+        padding: 10px
+        background-color: $purplish-gray
+        box-shadow: -1px -1px 0px black, 1px 1px 0px white
+                
+section
+    @include centralizando()
+    flex-direction: column
+    height: 100%
+
+    #resultado
+        @include centralizando()
+        flex-direction: column
+        gap: 10px
+        width: 300px
+        padding: 20px
+        box-shadow: inset 10px 10px 10px black, inset -1px -1px 5px black
+        margin: 20px
+
+        h1
+            font-size: 2em
+
+        img#img
+            width: 200px
+            border-radius: 50%
+            box-shadow: 10px 10px 0px black
+
+    #decidir
+        padding: 10px
+        width: 100px
+        cursor: pointer
+
+nav
+    background-color: $purplish-gray
+    width: 100%
+    ul
+        display: flex
+        li
+            list-style: none
+            img#icones
+                padding: 5px 10px
+                width: 50px
+                box-shadow: inset 0px 0px 0px black
+                transition: box-shadow .2s
+                cursor: pointer
+
+                &:hover
+                    box-shadow: inset 5px 5px 0px black
