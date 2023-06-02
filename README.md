@@ -15,3 +15,9 @@ Este projeto foi desenvolvido utilizando a tecnologia Sass, uma poderosa extens�
 ## OBS
 
 Sinta-se à vontade para modificar o array comidas no código JavaScript para incluir suas opções de comida favoritas. Adicione ou remova itens para personalizar o processo de seleção.
+
+## Desktop
+![Capturar](https://github.com/Fernando-Bento/Descomplicai/assets/98424711/545c50ff-bc35-4927-a6ba-950bd193d2d1)
+
+## Mobile
+![Capturara](https://github.com/Fernando-Bento/Descomplicai/assets/98424711/ea385a67-4c05-4ef2-b164-da9db16d4f3e)
