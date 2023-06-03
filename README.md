@@ -4,13 +4,13 @@ Bem-vindo ao repositório do aplicativo web Decider! Este projeto foi criado com
 
 ## Recursos
 
-1. Decisor de Comida: Ao clicar no botão "Decidir Comida", o aplicativo selecionará aleatoriamente uma opção de comida a partir de uma lista de escolhas deliciosas. Não precisa mais ficar pensando no que comer hoje à noite!
+1. Decisor de Comida: Ao clicar no botão "Decidir", o aplicativo selecionará aleatoriamente uma opção de comida a partir de uma lista de escolhas deliciosas. Não precisa mais ficar pensando no que comer hoje à noite!
 
-2. Dado de Sim/Não: Precisa de uma resposta rápida para uma pergunta de sim ou não? O botão "Decidir Sim/Não" lançará um dado virtual e apresentará uma resposta escolhida aleatoriamente. Você pode receber um "Sim", um "Não" ou até mesmo um "Talvez". Deixe o destino guiar suas decisões!
+2. Dado de Sim/Não: Precisa de uma resposta rápida para uma pergunta de sim ou não? O botão "Decidir" lançará um dado virtual e apresentará uma resposta escolhida aleatoriamente. Você pode receber um "Sim", um "Não" ou até mesmo um "Talvez". Deixe o destino guiar suas decisões!
 
 ## Tecnologia Utilizada
 
-Este projeto foi desenvolvido utilizando a tecnologia Sass, uma poderosa extensão do CSS que oferece recursos avançados para o desenvolvimento
+Este projeto foi desenvolvido utilizando a tecnologia Sass
 
 ## OBS
 
